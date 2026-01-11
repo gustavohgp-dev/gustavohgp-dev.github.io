@@ -1,4 +1,5 @@
 # _config.yml
+url: "https://gustavohgp-dev.github.io"
 title: Gustavo Henrique Gomes Pinto
 email: gustavo.hgp.dev@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
@@ -25,3 +26,7 @@ author:
 # Theme Settings
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "dark" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
