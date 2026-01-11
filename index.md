@@ -1,24 +1,60 @@
 ---
-layout: single
-author_profile: true
-title: "About Me"
+layout: splash
+permalink: /
+hidden: true
+header:
+  overlay_color: "#333"
+  overlay_filter: "0.5"
+  excerpt: "Senior Gameplay Engineer | Unity & C# | Multiplayer Systems"
+  actions:
+    - label: "View Projects"
+      url: "#featured-projects"
+      btn_class: "btn--primary"
+    - label: "Download Resume"
+      url: "/assets/GUSTAVO-HENRIQUE-GOMES-PINTO-Resume-2025.pdf"
+      btn_class: "btn--inverse"
+
+feature_row:
+  - image_path: /assets/images/frontier-thumb.jpg
+    alt: "The Monstrous Frontier"
+    title: "The Monstrous Frontier (Steam)"
+    excerpt: "Sole developer for a turn-based city builder. Implemented procedural hex-map generation, behavior tree AI, and economy systems."
+    url: "/projects/the-monstrous-frontier"
+    btn_class: "btn--primary"
+    btn_label: "View Case Study"
+
+  - image_path: /assets/images/combat-kanga-thumb.jpg
+    alt: "Combat Kanga"
+    title: "Combat Kanga (Multiplayer)"
+    excerpt: "Network Gameplay Programmer using **Photon Fusion**. Built authoritative movement, lag compensation, and matchmaking logic."
+    url: "/projects/combat-kanga"
+    btn_class: "btn--primary"
+    btn_label: "View Case Study"
+
+  - image_path: /assets/images/pet-shop-thumb.jpg
+    alt: "Pet Shop Fever"
+    title: "Pet Shop Fever (Mobile)"
+    excerpt: "Senior Engineer for a hit mobile game. Refactored legacy code into a clean **MVC Architecture** and optimized for low-end devices."
+    url: "/projects/pet-shop-fever"
+    btn_class: "btn--primary"
+    btn_label: "View Case Study"
 ---
 
-[cite_start]I am a **Senior Gameplay Engineer** with 8+ years of experience developing PC and Mobile games using **Unity** and **C#**[cite: 10]. My focus is on designing scalable systems, implementing robust gameplay features, and delivering commercial titles.
+## Core Competencies
 
-[cite_start]I have contributed to **10+ shipped projects**, including a Steam PC release and several freemium mobile games[cite: 11, 123].
+I bridge the gap between creative design and technical implementation, focusing on **scalable architecture** and **networked gameplay**.
 
-### Core Competencies
+| **Architecture** | **Multiplayer & Backend** | **Unity Ecosystem** |
+| :--- | :--- | :--- |
+| SOLID Principles | Photon Fusion | Addressables System |
+| MVC & MVP Patterns | PlayFab & Firebase | Universal Render Pipeline (URP) |
+| Command Pattern | Client-Side Prediction | Unity Localization |
+| Service Locator | Server Reconciliation | DOTween & UI Toolkit |
 
-| Domain | Skills |
-|:-------|:-------|
-| **Architecture** | [cite_start]SOLID Principles, MVC, Command Pattern, Service Locator [cite: 12] |
-| **Networking** | [cite_start]Photon Fusion, PlayFab, Firebase, Client-Side Prediction [cite: 37, 43] |
-| **Unity Tech** | [cite_start]Addressables, URP, Localization Package, DOTween [cite: 32, 62] |
-| **Languages** | [cite_start]C# (Expert), English (Fluent), Portuguese (Native) [cite: 10, 114, 127] |
+<br>
 
----
+<div id="featured-projects"></div>
 
 ## Featured Projects
 
-[Button: View Full Portfolio](/portfolio/)
+{% include feature_row %}
