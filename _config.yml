@@ -1,0 +1,27 @@
+# _config.yml
+title: Gustavo Henrique Gomes Pinto
+email: gustavo.hgp.dev@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Senior Gameplay Engineer specializing in Unity, C#, and Multiplayer Architecture.
+  8+ years experience shipping commercial titles on Steam and Mobile.
+
+# Social Links (Appears in the sidebar/footer)
+author:
+  name:   "Gustavo Henrique"
+  avatar: "/assets/images/profile.jpg" # You will need to upload a photo here later
+  bio:    "Senior Gameplay Engineer"
+  location: "São Paulo, Brazil"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/ghgp"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/ghgp" # Assuming this is your handle based on LinkedIn
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:gustavo.hgp.dev@gmail.com"
+
+# Theme Settings
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "dark" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
