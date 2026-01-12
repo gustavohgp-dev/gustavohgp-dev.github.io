@@ -5,7 +5,6 @@ hidden: true
 header:
   overlay_color: "#333"
   overlay_filter: "0.5"
-  excerpt: "Senior Gameplay Engineer | Unity & C#"
   actions:
     - label: "View Projects"
       url: "#featured-projects"
@@ -39,6 +38,8 @@ feature_row:
     btn_class: "btn--primary"
     btn_label: "View Case Study"
 ---
+
+## Core Competencies
 
 I bridge the gap between creative design and technical implementation, focusing on **scalable architecture** and **networked gameplay**.
 
