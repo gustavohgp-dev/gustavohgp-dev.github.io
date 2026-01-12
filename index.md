@@ -40,8 +40,6 @@ feature_row:
     btn_label: "View Case Study"
 ---
 
-## Core Competencies
-
 I bridge the gap between creative design and technical implementation, focusing on **scalable architecture** and **networked gameplay**.
 
 | **Architecture** | **Multiplayer & Backend** | **Unity Ecosystem** |
