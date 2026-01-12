@@ -5,7 +5,7 @@ hidden: true
 header:
   overlay_color: "#333"
   overlay_filter: "0.5"
-  excerpt: "Senior Gameplay Engineer | Unity & C# | Multiplayer Systems"
+  excerpt: "Senior Gameplay Engineer | Unity & C#"
   actions:
     - label: "View Projects"
       url: "#featured-projects"
