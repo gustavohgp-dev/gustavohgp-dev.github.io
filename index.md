@@ -6,6 +6,7 @@ title: ""
 header:
   overlay_color: "#333"
   overlay_filter: "0.5"
+  exerpt: I bridge the gap between creative design and technical implementation, focusing on **scalable architecture** and **networked gameplay**.
   actions:
     - label: "View Projects"
       url: "#featured-projects"
@@ -41,8 +42,6 @@ feature_row:
 ---
 
 ## Core Competencies
-
-I bridge the gap between creative design and technical implementation, focusing on **scalable architecture** and **networked gameplay**.
 
 | **Architecture** | **Multiplayer & Backend** | **Unity Ecosystem** |
 | :--- | :--- | :--- |
